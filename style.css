@@ -66,3 +66,14 @@ align-items: center;
 gap: 10px;
 align-self: stretch;
 }
+
+.lead{
+    flex: 1 0 0;
+    align-self: stretch;
+    color: #FFF;
+font-family: Mulish;
+font-size: 34px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
