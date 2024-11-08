@@ -1,0 +1,14 @@
+.shade{
+    /* doubleshade */
+box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
+}
+
+h2{
+    color: #FFF;
+    font-feature-settings: 'ss03' on;
+    font-family: "Roslindale Cyrillic Variable";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

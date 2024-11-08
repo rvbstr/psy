@@ -190,3 +190,81 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+
+.carousel-block{
+    border-top: 1px solid #AAA;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.carousel-title{
+    display: flex;
+    padding: 35px 50px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.carousel-title-text{
+    color: #FFF;
+    text-align: center;
+    /* H1 */
+    font-family: "Roslindale Cyrillic Variable";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: row;
+    min-width: 500px;
+    padding: 70px 50px;
+    align-items: flex-start;
+    gap: 70px;
+    flex: 1 0 0;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+
+.card{
+    display: flex;
+    width: 600px;
+    max-width: 600px;
+    padding: 13px 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    border-radius: 40px;
+    background: #000;
+
+/* doubleshade */
+box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
+}
+
+.card-head{
+    display: flex;
+    padding: 20px 16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.card-content{
+    display: flex;
+    max-width: 600px;
+    padding: 15px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
