@@ -77,3 +77,56 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
+.button{
+
+display: flex;
+padding: 17px 36px;
+justify-content: center;
+align-items: center;
+align-content: center;
+gap: 10px;
+flex-wrap: wrap;
+max-width: 550px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+border-radius: 40px;
+background: #FFF;
+/* doubleshade */
+box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
+}
+
+.button-text{
+    color: #000;
+text-align: center;
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: uppercase;
+}
+
+p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.feature-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+right: 50px;
+}
+
+.portrait{
+    filter: drop-shadow(-2px 4px 74.1px #B5DEFF) drop-shadow(1px 13px 42.5px rgba(233, 118, 108, 0.67));
+    width: 785px;
+height: 811px;
+}
