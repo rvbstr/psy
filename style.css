@@ -23,6 +23,7 @@ body {
 }
 
 .header-group{
+    z-index: 1;
     display: flex;
 min-width: 500px;
 max-width: 750px;
@@ -33,15 +34,8 @@ gap: 50px;
 flex: 1 0 0;
 }
 
-.feature-image{
-    display: flex;
-flex-direction: column;
-align-items: center;
-position: absolute;
-right: 50px;
-}
-
 .header{
+
     display: flex;
 padding-bottom: 70px;
 justify-content: center;
@@ -118,15 +112,81 @@ p {
 }
 
 .feature-image{
+    z-index: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: absolute;
-right: 50px;
+right: -150px;
+top: -50px;
+display: flex;
+align-items: center;
 }
 
 .portrait{
     filter: drop-shadow(-2px 4px 74.1px #B5DEFF) drop-shadow(1px 13px 42.5px rgba(233, 118, 108, 0.67));
     width: 785px;
 height: 811px;
+}
+
+.content-block{
+    display: flex;
+max-width: 1400px;
+padding: 35px 50px;
+justify-content: space-between;
+align-items: flex-start;
+align-content: flex-start;
+row-gap: 10px;
+align-self: stretch;
+flex-wrap: wrap;
+border-top: 1px solid #AAA;
+}
+
+.content-title{
+    display: flex;
+min-width: 375px;
+align-items: center;
+gap: 10px;
+flex: 1 0 0;
+color: #FFF;
+text-align: center;
+
+/* H1 */
+font-family: "Roslindale Cyrillic Variable";
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.content-text{
+    display: flex;
+min-width: 350px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+flex: 1 0 0;
+}
+
+.text-lead{
+    flex: 1 0 0;
+    color: #FFF;
+
+/* Text lead */
+font-family: Mulish;
+font-size: 34px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.card-text{
+    color: #FFF;
+
+/* Card text */
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
