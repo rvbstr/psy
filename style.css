@@ -274,3 +274,11 @@ box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #
     gap: 10px;
     align-self: stretch;
 }
+
+.carousel-subtext{
+    display: flex;
+padding: 35px 50px;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+}
