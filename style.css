@@ -127,7 +127,9 @@ align-items: center;
     filter: drop-shadow(-2px 4px 74.1px #B5DEFF) drop-shadow(1px 13px 42.5px rgba(233, 118, 108, 0.67));
     width: 785px;
 height: 811px;
+/*safari filter fix*/
 -webkit-appearance: none;
+backdrop-filter: blur(0);
 }
 
 .content-block{
