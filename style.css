@@ -1,9 +1,3 @@
-body {
-    margin: 0px;
-    padding: 0px;
-  }
-
-
 .desktop {
     display: flex;
     flex-direction: column;
@@ -32,6 +26,7 @@ flex-direction: column;
 align-items: flex-start;
 gap: 50px;
 flex: 1 0 0;
+
 }
 
 .header{
@@ -65,11 +60,11 @@ align-self: stretch;
     flex: 1 0 0;
     align-self: stretch;
     color: #FFF;
-font-family: Mulish;
-font-size: 34px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Mulish;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .button{
@@ -110,26 +105,27 @@ p {
     margin-inline-end: 0px;
     unicode-bidi: isolate;
 }
-
+/*
 .feature-image{
     z-index: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-right: -150px;
-top: -50px;
-display: flex;
-align-items: center;
-}
+    display: block;
+    align-items: center;
+}*/
 
 .portrait{
     filter: drop-shadow(-2px 4px 74.1px #B5DEFF) drop-shadow(1px 13px 42.5px rgba(233, 118, 108, 0.67));
     width: 785px;
-height: 811px;
-/*safari filter fix*/
--webkit-appearance: none;
-backdrop-filter: blur(0);
+    height: 811px;
+    /*safari filter fix*/
+    -webkit-appearance: none;
+    backdrop-filter: blur(0);
+    position: absolute;
+    right: -150px;
+    top: -50px;
+    z-index: 0;
 }
 
 .content-block{
@@ -199,9 +195,9 @@ line-height: normal;
     display: flex;
     flex-direction: column;
     align-self: stretch;
-    justify-content: center;
+    /*justify-content: center;
     align-items: center;
-    align-content: center;
+    align-content: center;*/
 }
 
 .carousel-title{
@@ -226,20 +222,44 @@ line-height: normal;
     line-height: normal;
 }
 
-.carousel{
-    display: flex;
-    flex-direction: row;
-    min-width: 500px;
-    padding: 70px 50px;
-    align-items: flex-start;
-    gap: 70px;
-    flex: 1 0 0;
-    flex-wrap: nowrap;
-    align-self: stretch;
-    /*overflow: hidden;*/
+
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+
+.carousel-wrapper{
+    display: inline-flex;
+    flex-flow: row nowrap;
+    overflow: hidden;
 }
 
+.carousel{
+
+    display: flex;
+    flex-direction: row;
+    /*min-width: 500px;*/
+    padding: 100px 50px;
+    gap: 70px;
+    flex: 1 1 0;
+    align-self: stretch;
+    align-items: center;
+    animation: 10s linear infinite normal slide;
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+}
+
+
+
 .card{
+    flex-grow:0;
     display: flex;
     width: 600px;
     max-width: 600px;
@@ -248,13 +268,12 @@ line-height: normal;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
-    align-self: stretch;
-
+    align-self: flex-start;
     border-radius: 40px;
     background: #000;
 
-/* doubleshade */
-box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
+    /* doubleshade */
+    box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
 }
 
 .card-head{
@@ -316,9 +335,8 @@ box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #
 
 /* doubleshade */
     box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
-    rgb(235, 235, 235)
-    mix-blend-mode: overlay;
 }
+
 /*
 .book-bg{
     width: 1200px;
