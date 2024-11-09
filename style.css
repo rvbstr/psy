@@ -277,8 +277,158 @@ box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #
 
 .carousel-subtext{
     display: flex;
-padding: 35px 50px;
-align-items: center;
+    padding: 35px 50px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.book-section-wrapper{
+    display: flex;
+    padding: 80px 100px;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+    gap: 10px;
+    align-self: stretch;
+    border-top: 1px solid #FFF;
+
+}
+
+.book-section{
+    display: flex;
+
+    /*margin-left: auto;
+    margin-right: auto;*/
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+
+    /*width: 100%;*/    
+    border-radius: 60px;
+    background: linear-gradient(180deg, #ECC787 0%, #E9766C 100%);
+
+/* doubleshade */
+    box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
+}
+
+.book-header{
+    display: flex;
+    padding: 35px 50px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    align-self: stretch;
+    flex-wrap: wrap;
+    /*border-top: 1px solid #AAA;*/
+}
+
+.content-title-book{
+    color: #000;
+text-align: center;
+
+/* H1 */
+font-family: "Roslindale Cyrillic Variable";
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.book-content{
+    display: flex;
+    padding: 20px 60px 35px 60px;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+}
+
+.bubble-wrapper{
+    display: flex;
+/*max-width: 1000px;*/
+padding: 15px 0px;
+flex-direction: column;
+align-items: flex-start;
 gap: 10px;
 align-self: stretch;
+}
+
+.bubble-card{
+    display: flex;
+max-width: 550px;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+
+border-radius: 40px 40px 40px 0px;
+background: #000;
+
+/* doubleshade */
+box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
+}
+
+.bubble-card-text{
+    display: flex;
+padding: 30px;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+}
+
+.bubble-card-acion{
+    display: flex;
+height: 64px;
+align-items: flex-start;
+align-self: stretch;
+flex-wrap: wrap;
+border-radius: 0px 0px 40px 40px;
+border-top: 1px solid #FFF;
+}
+
+.bubble-button-L{
+    display: flex;
+justify-content: center;
+align-items: center;
+flex: 1 0 0;
+align-self: stretch;
+border-right: 1px solid #FFF;
+}
+
+.bubble-button-R{
+    display: flex;
+justify-content: center;
+align-items: center;
+flex: 1 0 0;
+align-self: stretch;
+}
+
+
+.bubble-wrapper-R{
+    display: flex;
+    /*max-width: 1000px;*/
+    padding: 15px 0px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.bubble-card-R{
+    display: flex;
+    max-width: 550px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 40px 40px 0px 40px;
+    background: #000000;
+    margin-left: auto;
+
+    /* doubleshade */
+    box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
+}
+
+#small-card{
+    max-width: 400px;
 }
