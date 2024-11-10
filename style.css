@@ -108,9 +108,16 @@ p {
 }
 
 .feature-image{
-    position:relative;
-    margin-left: auto; 
-    margin-right: 0;
+    position:absolute;
+    width:100vw;
+    height:100%;
+    overflow-x: hidden;
+}
+
+.feature-image-wrapper{
+    position: relative;
+    width:100%;
+
 }
 
 .portrait{
@@ -121,7 +128,7 @@ p {
     -webkit-appearance: none;
     backdrop-filter: blur(0);
     position: absolute;
-    right: -100px;
+    right: -150px;
     top: -100px;
 
     z-index: 0;
