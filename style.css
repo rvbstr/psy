@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: var(--Page-bg, linear-gradient(180deg, #262626 39.6%, #383838 86.78%));
 }
 
 

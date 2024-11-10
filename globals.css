@@ -10,7 +10,9 @@ body {
     position:relative; 
 z-index:0;
 -webkit-transform: translateZ(0);
-  }
+background: var(--Page-bg, linear-gradient(180deg, #262626 39.6%, #383838 86.78%));
+
+}
 
 html{
     scroll-behavior: smooth;
