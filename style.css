@@ -9,7 +9,8 @@
 .feature{
     display: flex;
     padding: 50px;
-    align-items: center;
+    align-items: start;
+    flex-direction: row;
     align-content: center;
     gap: 15px;
     align-self: stretch;
@@ -20,24 +21,24 @@
 .header-group{
     z-index: 1;
     display: flex;
-min-width: 500px;
-max-width: 750px;
-padding-bottom: 50px;
-flex-direction: column;
-align-items: flex-start;
-gap: 50px;
-flex: 1 0 0;
+    min-width: 500px;
+    max-width: 750px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    flex: 1 0 0;
 
 }
 
 .header{
 
     display: flex;
-padding-bottom: 70px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-align-self: stretch;
+    padding-bottom: 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
 }
 
 .h1{
@@ -108,7 +109,9 @@ p {
 }
 
 .feature-image{
-
+    position:relative;
+    width: 20%;
+    height: 100px;
 }
 
 .portrait{
@@ -119,8 +122,8 @@ p {
     -webkit-appearance: none;
     backdrop-filter: blur(0);
     position: absolute;
-    right: -100px;
-    top: -50px;
+    right: -400px;
+    top: -100px;
     z-index: 0;
 }
 
@@ -310,6 +313,7 @@ line-height: normal;
     align-items: center;
     gap: 10px;
     align-self: stretch;
+    flex: 1 0 0;
 }
 
 .book-section-wrapper{
