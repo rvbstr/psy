@@ -24,4 +24,13 @@ p{
 
 a{
     text-decoration: none;
+    color: inherit;
+}
+
+span{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	color: inherit;
 }

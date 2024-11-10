@@ -86,16 +86,9 @@ align-self: stretch;
     box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
     color: #000;
     transition: color 1s, background 1s, box-shadow 1s ;
-}
-
-.button:hover{
-    background: #000;
-    color: #FFF;
-    box-shadow: 1px 13px 42.5px 0px #B5DEFF, -2px 4px 74.1px 0px rgba(233, 118, 108, 0.67);
-}
 
 
-.button-text{
+    /*button text style*/
     text-align: center;
     font-family: Mulish;
     font-size: 32px;
@@ -105,6 +98,17 @@ align-self: stretch;
     text-transform: uppercase;
     color: inherit;
 }
+
+.button:hover{
+    background: #000;
+    color: #FFF;
+    box-shadow: 1px 13px 42.5px 0px #B5DEFF, -2px 4px 74.1px 0px rgba(233, 118, 108, 0.67);
+}
+
+/*
+.button-text{
+
+}*/
 
 p {
     display: block;
