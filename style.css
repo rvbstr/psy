@@ -127,6 +127,7 @@ p {
     right: -150px;
     top: -50px;
     z-index: 0;
+    left:50%;
 }
 
 .content-block{
