@@ -328,14 +328,16 @@ line-height: normal;
 
     /*width: 100%;*/    
     border-radius: 60px;
-    background-image: url("images/txtr.png"), linear-gradient(180deg, #ECC787 0%, #E9766C 100%);
-    background-size: 100px 100px, auto;
-    background-repeat: repeat, no-repeat;
-    background-blend-mode: overlay;
+    background-image: url("images/txtr.png"), url("images/Blur-Book.svg"), linear-gradient(180deg, #ECC787 0%, #E9766C 100%);
+    background-size: 100px 100px, 800px 100%, auto;
+    background-repeat: repeat, no-repeat, no-repeat;
+    background-blend-mode: overlay, normal, normal;
 
 /* doubleshade */
     box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
 }
+
+
 
 /*
 .book-bg{
