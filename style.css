@@ -286,7 +286,6 @@ line-height: normal;
 .card{
     flex-grow:0;
     display: flex;
-    width: 600px;
     max-width: 600px;
     min-width: 500px;
     padding: 13px 10px;
