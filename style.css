@@ -68,6 +68,10 @@ align-self: stretch;
     line-height: normal;
 }
 
+:root{
+    --t: 0.5s
+}
+
 .button{
     display: flex;
     padding: 17px 36px;
@@ -79,13 +83,12 @@ align-self: stretch;
     max-width: 550px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
     border-radius: 40px;
     background: #FFF;
     /* doubleshade */
     box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
     color: #000;
-    transition: color 1s, background 1s, box-shadow 1s ;
+    transition: color var(--t), background var(--t), box-shadow var(--t);
 
 
     /*button text style*/
