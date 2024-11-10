@@ -106,12 +106,12 @@ p {
     margin-inline-end: 0px;
     unicode-bidi: isolate;
 }
-/*
+
 .feature-image{
     position:relative;
-    width: 20%;
-    height: 100px;
-}*/
+    margin-left: auto; 
+    margin-right: 0;
+}
 
 .portrait{
     filter: drop-shadow(-2px 4px 74.1px #B5DEFF) drop-shadow(1px 13px 42.5px rgba(233, 118, 108, 0.67));
@@ -123,6 +123,7 @@ p {
     position: absolute;
     right: -100px;
     top: -100px;
+
     z-index: 0;
 }
 
