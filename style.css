@@ -137,14 +137,14 @@ p {
 
 .portrait{
     /*filter: drop-shadow(-2px 4px 74.1px #B5DEFF) drop-shadow(1px 13px 42.5px rgba(233, 118, 108, 0.67));*/
-    width: 902px;
-    height: 930px;
+    width: 990px;
+    height: 1021.58px;
     /*safari filter fix*/
     -webkit-appearance: none;
     backdrop-filter: blur(0);
     position: absolute;
     right: -150px;
-    top: -100px;
+    top: -150px;
 
     z-index: 0;
 }
