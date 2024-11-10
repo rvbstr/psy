@@ -256,7 +256,21 @@ line-height: normal;
     transition: none !important;
 }
 
+.carousel-stop-wrap{
+    display: inline-flex;
+    flex-flow: row nowrap;
+    --duration: 10s;
+    transform: translateX(0);
+    transition: calc(var(--duration) * .1) ease-out;
+}
 
+.carousel-stop-wrap:hover {
+    transform: translateX(-10%);
+  }
+
+.carousel-stop-wrap:hover .carousel {
+    animation-play-state: paused;
+  }
 
 .card{
     flex-grow:0;
