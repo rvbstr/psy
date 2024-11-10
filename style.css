@@ -43,11 +43,11 @@
 
 .h1{
     color: #FFF;
-font-family: "Roslindale Cyrillic Text";
-font-size: 75px;
-font-style: normal;
-font-weight: 400;
-line-height: 110%; /* 82.5px */
+    font-family: "Roslindale Cyrillic Text";
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 82.5px */
 }
 
 .header-lead{
@@ -70,33 +70,32 @@ align-self: stretch;
 }
 
 .button{
-
-display: flex;
-padding: 17px 36px;
-justify-content: center;
-align-items: center;
-align-content: center;
-gap: 10px;
-flex-wrap: wrap;
-max-width: 550px;
-flex-direction: column;
-align-items: flex-start;
-gap: 10px;
-border-radius: 40px;
-background: #FFF;
-/* doubleshade */
-box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
+    display: flex;
+    padding: 17px 36px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 550px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 40px;
+    background: #FFF;
+    /* doubleshade */
+    box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
 }
 
 .button-text{
     color: #000;
-text-align: center;
-font-family: Mulish;
-font-size: 32px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-transform: uppercase;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 p {
@@ -107,12 +106,12 @@ p {
     margin-inline-end: 0px;
     unicode-bidi: isolate;
 }
-
+/*
 .feature-image{
     position:relative;
     width: 20%;
     height: 100px;
-}
+}*/
 
 .portrait{
     filter: drop-shadow(-2px 4px 74.1px #B5DEFF) drop-shadow(1px 13px 42.5px rgba(233, 118, 108, 0.67));
@@ -122,9 +121,15 @@ p {
     -webkit-appearance: none;
     backdrop-filter: blur(0);
     position: absolute;
-    right: -400px;
+    right: -100px;
     top: -100px;
     z-index: 0;
+}
+
+@media only screen and (max-width: 600px){
+    .portrait{
+        right:-300px;
+    }
 }
 
 .content-block{

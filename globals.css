@@ -12,3 +12,11 @@ z-index:0;
 -webkit-transform: translateZ(0);
   }
 
+html{
+    scroll-behavior: smooth;
+}
+
+
+a{
+    text-decoration: none;
+}
