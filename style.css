@@ -84,10 +84,18 @@ align-self: stretch;
     background: #FFF;
     /* doubleshade */
     box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
+    color: #000;
+    transition: color 1s, background 1s, box-shadow 1s ;
 }
 
+.button:hover{
+    background: #000;
+    color: #FFF;
+    box-shadow: 1px 13px 42.5px 0px #B5DEFF, -2px 4px 74.1px 0px rgba(233, 118, 108, 0.67);
+}
+
+
 .button-text{
-    color: #000;
     text-align: center;
     font-family: Mulish;
     font-size: 32px;
@@ -95,6 +103,7 @@ align-self: stretch;
     font-weight: 900;
     line-height: normal;
     text-transform: uppercase;
+    color: inherit;
 }
 
 p {
@@ -261,6 +270,10 @@ line-height: normal;
     align-self: stretch;
     align-items: center;
     animation: 10s linear infinite normal slide;
+
+
+-webkit-overflow-scrolling: touch; /* momentum scrolling, iOS Safari only*/
+
     -webkit-transition: none !important;
     -moz-transition: none !important;
     -o-transition: none !important;
