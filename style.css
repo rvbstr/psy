@@ -335,10 +335,11 @@ line-height: normal;
     display: inline-flex;
     flex-flow: row nowrap;
     --duration: 10s;
-    transform: translateX(0);
-    transition: calc(var(--duration) * .1) ease-out;
+    /*transform: translateX(0);
+    transition: calc(var(--duration) * .1) ease-out;*/
 }
 
+/*
 .carousel-stop-wrap:hover {
     transform: translateX(-20%);
   }
@@ -346,6 +347,8 @@ line-height: normal;
 .carousel-stop-wrap:hover .carousel {
     animation-play-state: paused;
   }
+*/
+
 
 .card{
     flex-grow:0;
