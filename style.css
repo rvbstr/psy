@@ -6,8 +6,8 @@
 
 @font-face {
     font-family: 'Roslindale Cyrillic Text I';
-    src: url('src/fonts/RoslindaleCyrillicText-Italic.woff2') format('woff2'), 
-    url('src/fonts/RoslindaleCyrillicText-Italic.woff') format('woff');
+    src: url('src/fonts/RoslindaleCyrillicText-MediumItalic.woff2') format('woff2'), 
+    url('src/fonts/RoslindaleCyrillicText-MediumItalic.woff') format('woff');
   }
 
   @font-face {
@@ -188,7 +188,6 @@ p {
     position: absolute;
     right: -270px;
     top: -150px;
-
     z-index: 0;
 }
 
