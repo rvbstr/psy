@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Roslindale Cyrillic Variable';
-    src: url('/src/fonts/RoslindaleCyrillicVariable[ital\,opsz\,wght].woff2') format('woff2'), 
-    url('/src/fonts/RoslindaleCyrillicVariable[ital\,opsz\,wght].woff') format('woff'); /* Pretty Modern Browsers */
+    src: url('src/fonts/RoslindaleCyrillicVariable.woff2') format('woff2'), 
+    url('src/fonts/RoslindaleCyrillicVariable.woff') format('woff');
   }
 
 
@@ -49,7 +49,18 @@
 
 .h1{
     color: #FFF;
-    font-family: "Roslindale Cyrillic Text";
+    /* Title v */
+    font-family: "Roslindale Cyrillic Variable";
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 82.5px */
+}
+
+.h1-italic{
+    color: #FFF;
+    /* Title v */
+    font-family: "Roslindale Cyrillic Variable";
     font-size: 75px;
     font-style: normal;
     font-weight: 400;
