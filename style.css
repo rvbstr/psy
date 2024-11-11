@@ -59,7 +59,7 @@
     align-self: stretch;
 }
 
-.h1{
+.head{
     color: #FFF;
     /* Title v */
     font-family: "Roslindale Cyrillic Text";
@@ -69,12 +69,11 @@
     line-height: 110%; /* 82.5px */
 }
 
-.h1-italic{
+.head-italic{
     color: #FFF;
     /* Title v italic */
     font-family: "Roslindale Cyrillic Text I";
     font-size: 75px;
-    font-style: italic;
     font-weight: 500;
     line-height: 110%;
 }
