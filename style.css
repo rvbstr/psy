@@ -186,7 +186,7 @@ p {
     -webkit-appearance: none;
     backdrop-filter: blur(0);
     position: absolute;
-    right: -150px;
+    right: -270px;
     top: -150px;
 
     z-index: 0;
@@ -194,7 +194,7 @@ p {
 
 @media only screen and (max-width: 600px){
     .portrait{
-        right:-100px;
+        right:-300px;
     }
 }
 
