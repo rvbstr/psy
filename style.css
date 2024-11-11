@@ -1,7 +1,19 @@
 @font-face {
-    font-family: 'Roslindale Cyrillic Variable';
-    src: url('src/fonts/RoslindaleCyrillicVariable.woff2') format('woff2'), 
-    url('src/fonts/RoslindaleCyrillicVariable.woff') format('woff');
+    font-family: 'Roslindale Cyrillic Text';
+    src: url('src/fonts/RoslindaleCyrillicText-Regular.woff2') format('woff2'), 
+    url('src/fonts/RoslindaleCyrillicText-Regular.woff') format('woff');
+  }
+
+@font-face {
+    font-family: 'Roslindale Cyrillic Text I';
+    src: url('src/fonts/RoslindaleCyrillicText-Italic.woff2') format('woff2'), 
+    url('src/fonts/RoslindaleCyrillicText-Italic.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Roslindale Cyrillic Condensed';
+    src: url('src/fonts/RoslindaleCyrillicDisplayCondensed-Regular.woff2') format('woff2'), 
+    url('src/fonts/RoslindaleCyrillicDisplayCondensed-Regular.woff') format('woff');
   }
 
 
@@ -50,7 +62,7 @@
 .h1{
     color: #FFF;
     /* Title v */
-    font-family: "Roslindale Cyrillic Variable";
+    font-family: "Roslindale Cyrillic Text";
     font-size: 75px;
     font-style: normal;
     font-weight: 400;
@@ -59,12 +71,24 @@
 
 .h1-italic{
     color: #FFF;
-    /* Title v */
-    font-family: "Roslindale Cyrillic Variable";
+    /* Title v italic */
+    font-family: "Roslindale Cyrillic Text I";
     font-size: 75px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 110%; /* 82.5px */
+    font-style: italic;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+#highlight{
+    background-image: url("images/oval.svg");
+    background-position: 15px;
+    background-repeat: no-repeat;
+    margin: -80px -80px;
+    padding: 80px 80px;
+}
+
+.text-highlight{
+    color: #E9766C;
 }
 
 .header-lead{
@@ -196,12 +220,14 @@ flex: 1 0 0;
 color: #FFF;
 text-align: center;
 
-/* H1 */
-font-family: "Roslindale Cyrillic Variable";
+/* H1 
+font-family: "Roslindale Cyrillic Condensed";
+font-feature-settings: 'ss03' on;
 font-size: 64px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+*/
 }
 
 .content-text{
@@ -261,7 +287,7 @@ line-height: normal;
     color: #FFF;
     text-align: center;
     /* H1 */
-    font-family: "Roslindale Cyrillic Variable";
+    font-family: "Roslindale Cyrillic Condensed";
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
@@ -429,12 +455,12 @@ line-height: normal;
     color: #000;
 text-align: center;
 
-/* H1 */
-font-family: "Roslindale Cyrillic Variable";
+/* H1 
+font-family: "Roslindale Cyrillic Condensed";
 font-size: 64px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: normal;*/
 }
 
 .book-content{
