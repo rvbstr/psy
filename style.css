@@ -319,7 +319,7 @@ line-height: normal;
     flex: 1 1 0;
     align-self: stretch;
     align-items: center;
-    animation: 10s linear infinite normal slide;
+    animation: 35s linear infinite normal slide;
 
 
 -webkit-overflow-scrolling: touch; /* momentum scrolling, iOS Safari only*/
@@ -600,4 +600,32 @@ line-height: normal;
 .chevron{
     width: 32px;
     height: 32px;
+    display: none;
+}
+
+
+.footer{
+    display: flex;
+    padding: 45px 50px;
+    align-items: center;
+    align-content: center;
+    row-gap: 10px;
+    align-self: stretch;
+    flex-wrap: wrap;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+
+    border-top: 1px solid #AAA;
+    background: #000;  
+}
+
+.footer-text{
+    color: #FFF;
+font-family: "Roslindale Cyrillic Text";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
 }
