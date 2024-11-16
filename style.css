@@ -129,7 +129,7 @@ align-self: stretch;
     /* doubleshade */
     box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
     color: #000;
-    transition: color var(--t), background var(--t), box-shadow var(--t);
+
 
 
     /*button text style*/
@@ -143,7 +143,11 @@ align-self: stretch;
     color: inherit;
 }
 
-.button:hover{
+.button-anim{
+    transition: color var(--t), background var(--t), box-shadow var(--t);
+}
+
+.button-anim:hover{
     background: #000;
     color: #FFF;
     box-shadow: 1px 13px 42.5px 0px #B5DEFF, -2px 4px 74.1px 0px rgba(233, 118, 108, 0.67);
@@ -505,12 +509,12 @@ align-self: stretch;
 
 .bubble-card-acion{
     display: flex;
-height: 64px;
-align-items: flex-start;
-align-self: stretch;
-flex-wrap: wrap;
-border-radius: 0px 0px 40px 40px;
-border-top: 1px solid #FFF;
+    height: 64px;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: wrap;
+    border-radius: 0px 0px 40px 40px;
+    border-top: 1px solid #FFF;
 }
 
 .bubble-button-L{
@@ -520,6 +524,15 @@ align-items: center;
 flex: 1 0 0;
 align-self: stretch;
 border-right: 1px solid #FFF;
+
+
+/* Card text */
+font-family: Mulish;
+color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
 
 .bubble-button-R{
@@ -528,6 +541,7 @@ justify-content: center;
 align-items: center;
 flex: 1 0 0;
 align-self: stretch;
+border-radius: 0px 0px 40px 0px;
 }
 
 
@@ -617,12 +631,13 @@ line-height: normal;
 justify-content: center;
 align-items: center;
 
+
     border-top: 1px solid #AAA;
     background: #000;  
 }
 
 .footer-text{
-    color: #FFF;
+    color: #AAA;
 font-family: "Roslindale Cyrillic Text";
 font-feature-settings: 'ss03' on;
 font-size: 20px;
@@ -640,3 +655,19 @@ text-align: center;
     flex-grow: 0;
 }
 
+.b-b-anim{
+    font-family: Mulish;
+color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+transition: color var(--t), background var(--t), box-shadow var(--t);
+}
+
+.b-b-anim:hover{
+    color:#000;
+    background-color: white;
+    box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
+    color: #000;
+}
