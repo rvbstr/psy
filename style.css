@@ -391,6 +391,7 @@ line-height: normal;
     gap: 10px;
     align-self: stretch;
     flex: 1 0 0;
+    max-width: 50%;
 }
 
 .book-section-wrapper{
@@ -623,9 +624,19 @@ align-items: center;
 .footer-text{
     color: #FFF;
 font-family: "Roslindale Cyrillic Text";
+font-feature-settings: 'ss03' on;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-align: center;
 }
+
+.large-content{
+    flex-grow: 4;
+}
+
+.large-content-head{
+    flex-grow: 0;
+}
+
