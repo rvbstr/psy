@@ -671,3 +671,7 @@ transition: color var(--t), background var(--t), box-shadow var(--t);
     box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
     color: #000;
 }
+
+.noclass{
+    color: #FFF;
+}
