@@ -1,4 +1,62 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    /* Styles */
-  }
+
+
+    .feature{
+        display: flex;
+        padding: 20px 15px;
+        align-items: start;
+        flex-direction: row;
+        align-content: center;
+        gap: 15px;
+        align-self: stretch;
+        flex-wrap: wrap;
+        overflow: hidden;
+
+    }
+/*TODO: reformat Header group as in figma for 100vh*/
+
+    .header-group{
+        z-index: 1;
+        display: flex;
+        padding-bottom: 50px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 50px;
+        flex: 1 0 0;
+        min-width: unset;
+        max-width: unset;
+    }
+    .header {
+
+        display: flex;
+        padding-bottom: 70px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    .head {
+        color: #FFF;
+        /* Title v */
+        font-family: "Roslindale Cyrillic Text";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%;
+        /* 82.5px */
+    }
+
+    .head-italic {
+        color: #FFF;
+        /* Title v italic */
+        font-family: "Roslindale Cyrillic Text I";
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 110%;
+    }
+
+
+
+}
