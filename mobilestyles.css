@@ -57,6 +57,17 @@
         line-height: 110%;
     }
 
-
+    .portrait{
+        /*filter: drop-shadow(-2px 4px 74.1px #B5DEFF) drop-shadow(1px 13px 42.5px rgba(233, 118, 108, 0.67));*/
+        width: 550px;
+        height: 567.04px;
+        /*safari filter fix*/
+        -webkit-appearance: none;
+        backdrop-filter: blur(0);
+        position: absolute;
+        right: -50vw;
+        top: 0vh;
+        z-index: 0;
+    }
 
 }
