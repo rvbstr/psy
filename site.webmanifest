@@ -1,6 +1,6 @@
 {
-  "name": "Гештальт-терапевт Нечаев",
-  "short_name": "Gestalt-Nechaev",
+  "name": "Gestalt Nechaev",
+  "short_name": "GestaltNechaev",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
