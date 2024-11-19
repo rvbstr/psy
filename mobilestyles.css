@@ -207,15 +207,6 @@
         flex: 1 0 0;
         color: #FFF;
         text-align: center;
-
-        /* H1 
-        font-family: "Roslindale Cyrillic Condensed";
-        font-feature-settings: 'ss03' on;
-        font-size: 64px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        */
     }
 
     .content-text {
@@ -299,7 +290,7 @@
         display: inline-flex;
         flex-flow: row nowrap;
         overflow: hidden;
-        touch-action: none;
+        /*touch-action: none;*/
     }
 
     .carousel {
@@ -312,8 +303,8 @@
         flex: 1 1 0;
         align-self: stretch;
         align-items: center;
-        animation: none;
-        /*animation: 35s linear infinite normal slide;*/
+        /*animation: none;*/
+        animation: 35s linear infinite normal slide;
 
 
         -webkit-overflow-scrolling: touch;
