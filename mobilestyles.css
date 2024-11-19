@@ -12,7 +12,7 @@
         align-self: stretch;
         flex-wrap: wrap;
         overflow: hidden;
-
+        height:80vh;
     }
 
     /*TODO: reformat Header group as in figma for 100vh*/
@@ -23,10 +23,11 @@
         padding-bottom: unset;
         flex-direction: column;
         align-items: flex-start;
-        gap: 50px;
+        gap: 0px;
         flex: 1 0 0;
         min-width: unset;
         max-width: unset;
+        justify-content: space-between;
     }
 
     .header {
