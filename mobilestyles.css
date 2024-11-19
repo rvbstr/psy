@@ -57,6 +57,22 @@
         line-height: 110%;
     }
 
+    #highlight{
+        background-image: url("images/oval.svg");
+        background-position: 15px;
+        background-repeat: no-repeat;
+        margin: -80px -80px;
+        padding: 80px 80px;
+    }
+
+    .header-lead{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    }
+
     .portrait{
         /*filter: drop-shadow(-2px 4px 74.1px #B5DEFF) drop-shadow(1px 13px 42.5px rgba(233, 118, 108, 0.67));*/
         width: 550px;
