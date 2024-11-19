@@ -9,4 +9,5 @@ const pointerScroll = (elem) => {
     elem.addEventListener("pointermove", drag);
   };
 
+
   document.querySelectorAll(".carousel-wrapper").forEach(pointerScroll);
