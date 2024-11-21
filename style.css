@@ -256,7 +256,6 @@ line-height: normal;
 
 .card-text {
     color: #FFF;
-
     /* Card text */
     font-family: Mulish;
     font-size: 24px;
@@ -337,7 +336,9 @@ line-height: normal;
     transition: none !important;
 }
 
-
+.carousel-stop-wrap:hover .carousel {
+    animation-play-state: paused;
+  }
 
 .carousel-stop-wrap {
     display: inline-flex;
@@ -370,9 +371,23 @@ line-height: normal;
     align-self: flex-start;
     border-radius: 40px;
     background: #000;
-
+    transition: color var(--t), background var(--t), box-shadow var(--t);
     /* doubleshade */
     box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
+}
+
+.card:hover {
+    color: #000;
+    background: white;
+    box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
+}
+
+.card:hover * {
+    color: #000;
+}
+
+.card:hover .card-head.h3{
+    color: #000;
 }
 
 .card-head {
