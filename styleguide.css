@@ -27,8 +27,17 @@ p{
   margin-right: 0;
 }
 
-a{
+
+
+a.inline-link {
+    text-decoration: underline;
+    text-decoration-color: #E9766C;
+    color: inherit;
+}
+
+a.inline-link:hover {
     text-decoration: none;
+    text-decoration-color: #FFF;
     color: inherit;
 }
 

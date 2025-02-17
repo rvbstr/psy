@@ -154,10 +154,11 @@
     box-shadow: 1px 13px 42.5px 0px #B5DEFF, -2px 4px 74.1px 0px rgba(233, 118, 108, 0.67);
 }
 
-/*
-.button-text{
 
-}*/
+.button-text{
+    text-decoration: none;
+    color: inherit;
+}
 
 p {
     display: block;
@@ -544,6 +545,7 @@ line-height: normal;*/
     flex: 1 0 0;
     align-self: stretch;
     border-right: 1px solid #FFF;
+    text-decoration: none;
 
 
     /* Card text */
@@ -562,6 +564,7 @@ line-height: normal;*/
     flex: 1 0 0;
     align-self: stretch;
     border-radius: 0px 0px 40px 0px;
+    text-decoration: none;
 }
 
 
