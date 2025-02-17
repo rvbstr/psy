@@ -335,6 +335,15 @@ line-height: normal;
     -moz-transition: none !important;
     -o-transition: none !important;
     transition: none !important;
+
+
+    user-select: none;
+    cursor: grab;
+    white-space: nowrap;
+}
+
+.carousel:active {
+    cursor: grabbing;
 }
 
 .carousel-stop-wrap:hover .carousel {
